@@ -718,7 +718,8 @@ class Drupal
    * @return \Drupal\Core\Entity\EntityDefinitionUpdateManagerInterface
    *   The entity definition update manager.
    */
-  public static function entityDefinitionUpdateManager() {
+  public static function entityDefinitionUpdateManager()
+  {
     return static::getContainer()->get('entity.definition_update_manager');
   }
 
