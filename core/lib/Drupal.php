@@ -76,7 +76,8 @@ use Drupal\Core\Url;
  *
  * @see \Drupal\Core\DrupalKernel
  */
-class Drupal {
+class Drupal
+{
 
   /**
    * The current system version.
